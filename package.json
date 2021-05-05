@@ -1,0 +1,26 @@
+{
+  "name": "bot_dc",
+  "version": "1.0.0",
+  "description": "learn creating bot dc",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "bot-dc"
+  },
+  "author": "rendi saputra",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^8.5.1",
+    "express": "^4.17.1",
+    "module-alias": "^2.2.2",
+    "nodemon": "^2.0.7"
+  },
+  
+  "_moduleAliases": {
+    "module": "Configs/module.js"
+  }
+}
